@@ -1,0 +1,366 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    background-color: #f9f9f9;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  #hero form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  #hero input[type="text"] {
+    padding: 10px;
+    width: 400px;
+  }
+  
+  #hero button {
+    padding: 10px 20px;
+    background-color: #ff5a5f;
+    border: none;
+    color: #fff;
+  }
+  
+  /* Features Section Styles */
+  #features {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  #features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  #features ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  
+  /* Portfolio Section Styles */
+  #portfolio {
+    background-color: #f9f9f9;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  #portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .service-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .service {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .service a {
+    padding: 10px 20px;
+    background-color: #ff5a5f;
+    border: none;
+    color: #fff;
+  }
+  
+  /* Community Section Styles */
+  #community {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  #community h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .design-search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .design-search input[type="text"] {
+    padding: 10px;
+    width: 400px;
+  }
+  
+  .design-search button {
+    padding: 10px 20px;
+    background-color: #ff5a5f;
+    border: none;
+    color: #fff;
+  }
+  
+  .popular-designs ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .popular-designs li {
+    margin-right: 20px;
+  }
+  
+  /* Blog Section Styles */
+  #blog {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  #blog h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .blog-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .blog {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .blog h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .blog p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .blog a {
+    padding: 10px 20px;
+    background-color: #ff5a5f;
+    border: none;
+    color: #fff;
+  }
+  
+  /* Real Wedding Section Styles */
+  #real-wedding {
+    background-color: #f9f9f9;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  #real-wedding h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .wedding-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .wedding-list li {
+    text-align: center;
+  }
+  
+  .wedding-list li img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .wedding-list li p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Offers Section Styles */
+  #offers {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  #offers h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .offer-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .offer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .offer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .offer p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .offer a {
+    padding: 10px 20px;
+    background-color: #ff5a5f;
+    border: none;
+    color: #fff;
+  }
+  
+  /* Testimonials Section Styles */
+  #testimonials {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  #testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-links ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links li {
+    margin-right: 20px;
+  }
+  
+  .footer-subscribe {
+    margin-bottom: 20px;
+  }
+  
+  .footer-subscribe h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-subscribe input[type="email"] {
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .footer-subscribe button {
+    padding: 10px 20px;
+    background-color: #ff5a5f;
+    border: none;
+    color: #fff;
+  }
+  
+  .footer-info p {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  
